@@ -1,5 +1,6 @@
 require 'tweetkit/connection'
 require 'tweetkit/client/tweets'
+require 'tweetkit/client/users'
 
 module Tweetkit
   class Client
