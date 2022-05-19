@@ -532,12 +532,13 @@ module Tweetkit
           end
 
           class User
-            attr_accessor :id, :name, :username
+            attr_accessor :id, :name, :username, :profile_image_url
 
             def initialize(user)
               @id = user['id']
               @name = user['name']
               @username = user['username']
+              @profile_image_url = user['profile_image_url']
             end
           end
         end
